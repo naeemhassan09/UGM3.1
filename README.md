@@ -24,4 +24,11 @@ I2C
   `sudo hwclock -r` 
   
   
-  
+ # TEST ADC 4 Channel MCP3428
+
+## Device address is 0x6E
+
+Run the  command 
+
+`python3  MCP3428_a.py`
+
