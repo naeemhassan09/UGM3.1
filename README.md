@@ -7,7 +7,8 @@ I2C
  
   `i2cdetect -y 1`
 
-##Setting up RTC
+## Setting up RTC
+
  comment following lines from here   `/lib/udev/hwclock-set`
  
  ` if [ -e /run/systemd/system ] ; then   `
