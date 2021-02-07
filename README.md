@@ -7,7 +7,8 @@ I2C
  
   `i2cdetect -y 1`
 
-##Setting up RTC
+## Setting up RTC
+
  comment following lines from here   `/lib/udev/hwclock-set`
  
  ` if [ -e /run/systemd/system ] ; then   `
@@ -24,4 +25,11 @@ I2C
   `sudo hwclock -r` 
   
   
-  
+ # TEST ADC 4 Channel MCP3428
+
+## Device address is 0x6E
+
+Run the  command 
+
+`python3  MCP3428_a.py`
+
